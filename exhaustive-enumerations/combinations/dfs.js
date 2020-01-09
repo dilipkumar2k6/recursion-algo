@@ -1,13 +1,15 @@
-const combinationsHelper = (arr, slate) => {
-    if(arr.length === 0) {
+const combinationsHelper = (arr, i, slate) => {
+    if(arr.length === i) {
         console.log(slate);
         return;
     }
-    // choose 0th element
-    combinationsHelper(arr.slice(1, arr.length), [...slate, arr[0]]);
-    
-    // exclude 0th element
-    combinationsHelper(arr.slice(1, arr.length), slate);
+    // choose ith element
+    slate.push(arr[i]);
+    combinationsHelper(arr, i+1, slate);
+    slate.pop();
+
+    // exclude ith element
+    combinationsHelper(arr, i+1, slate);
 }
-const combinations = n => combinationsHelper(n, []);
+const combinations = n => combinationsHelper(n, 0, []);
 combinations(['a','b','c']);
