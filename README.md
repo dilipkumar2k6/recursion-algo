@@ -11,7 +11,11 @@
 4. Permutations: https://leetcode.com/problems/permutations/
 5. Permutations II: https://leetcode.com/problems/permutations-ii/
 6. Combinations: https://leetcode.com/problems/combinations/
-7. Generate Parentheses: https://leetcode.com/problems/generate-parentheses/
+7. Back tracking: https://leetcode.com/problems/combinations/
+7. Back tracking: Generate Parentheses: https://leetcode.com/problems/generate-parentheses/
 8. Palindrome Partitioning: https://leetcode.com/problems/palindrome-partitioning/
-9. N-Queens: https://leetcode.com/problems/n-queens/ and https://leetcode.com/problems/n-queens-ii/
-
+9. N-Queens: https://leetcode.com/problems/n-queens/ 
+and https://leetcode.com/problems/n-queens-ii/
+10. Fibonacci/selection https://leetcode.com/problems/climbing-stairs/
+11. Regex match https://leetcode.com/problems/regular-expression-matching/
+12. Edit distance https://leetcode.com/problems/edit-distance/
