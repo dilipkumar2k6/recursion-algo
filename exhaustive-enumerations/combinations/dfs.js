@@ -1,15 +1,20 @@
-const combinationsHelper = (arr, i, slate) => {
-    if(arr.length === i) {
-        console.log(slate);
+const printAllSubsetsHelper = (arr, i, ans, slate) => {
+    // print ans for empty string
+    if(i === arr.length) {
+        ans.push([...slate]);
         return;
     }
-    // choose ith element
+    // choose to apply ith elem
     slate.push(arr[i]);
-    combinationsHelper(arr, i+1, slate);
+    printAllSubsetsHelper(arr, i + 1, ans, slate);
     slate.pop();
 
-    // exclude ith element
-    combinationsHelper(arr, i+1, slate);
+    // skip to apply ith element
+    printAllSubsetsHelper(arr, i + 1, ans, slate);
 }
-const combinations = n => combinationsHelper(n, 0, []);
-combinations(['a','b','c']);
+const printAllSubsets = arr => {
+    const ans = [];
+     printAllSubsetsHelper(arr, 0, ans, []);
+    return ans;
+}
+console.log(printAllSubsets(['a','b','c']));

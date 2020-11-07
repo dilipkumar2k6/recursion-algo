@@ -1,7 +1,7 @@
 const printBinary = n => {
     // base case
-    if(n === 1) {
-        return ['0','1'];
+    if(n === 0) {
+        return [''];
     }
     // get result from previous 
     const prev = printBinary(n-1);
@@ -14,4 +14,26 @@ const printBinary = n => {
     return result;
 }
 
-console.log(printBinary(3))
+console.log(printBinary(2))
+
+const printDecimalNumbers = (n) => {
+    // base case of length 0
+    if(n === 0) {
+        return [''];
+    }
+
+    // As a manger, ask child to work for n-1 size of problem
+    const prev = printDecimalNumbers(n-1);
+
+    // Manager will do rest of work 
+    const result = [];
+    for (let i=0; i <= 9; i++) {
+        // apply on all result
+        for (const r of prev) {
+            result.push(r+''+i);
+        }
+    }
+    return result;
+}
+
+console.log(printDecimalNumbers(2))

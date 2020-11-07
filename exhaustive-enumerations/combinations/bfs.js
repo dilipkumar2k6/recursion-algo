@@ -1,16 +1,23 @@
-const combinationsHelper = arr => {
-    if(arr.length === 0) {
+const printAllSubsetsHelper = (arr, i) => {
+    // for empty set
+    if(i === arr.length) {
         return [[]];
     }
-    // keep last element and handover remaining to subordinate
-    const prev = combinationsHelper(arr.slice(0, arr.length - 1));
-    // apply last element on each result returned by subordinate
-    const result = [];
-    for(let i=0; i < prev.length; i++) {
-        const set = prev[i];
-        result.push(set); // add original set to result
-        result.push([...set, arr[arr.length - 1]]) ; // add last element to set
+    // handover rest of elements to child
+    const prev = printAllSubsetsHelper(arr, i + 1);
+
+    // As a manager, apply ith element
+    const ans = [];
+    for (const result of prev) {
+        // skip to apply ith element
+        ans.push(result);
+
+        // Apply ith element
+        ans.push([...result, arr[i]]);
     }
-    return result;
+    return ans;
 }
-console.log(combinationsHelper(['a','b','c']));
+const printAllSubsets = arr => {
+    return printAllSubsetsHelper(arr, 0);
+}
+console.log(printAllSubsets(['a','b','c']));
