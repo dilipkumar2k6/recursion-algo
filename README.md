@@ -29,6 +29,8 @@ const towerOfHanoi = (n, src, dist, aux) => {
 }
 
 ```
+# Math
+https://sites.math.northwestern.edu/~mlerma/courses/cs310-05s/notes/dm-gcomb
 # Exhaustive Enumerations
 
 1. Letter case permutation: https://leetcode.com/problems/letter-case-permutation/
