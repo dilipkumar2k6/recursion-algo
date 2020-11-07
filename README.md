@@ -53,4 +53,5 @@ and https://leetcode.com/problems/n-queens-ii/
 16. https://www.lintcode.com/problem/factorial/description
 17. https://leetcode.com/problems/powx-n/
 18. https://leetcode.com/problems/target-sum/
-
+19. https://www.educative.io/courses/data-structures-coding-interviews-javascript/m2NMgL057Y9
+20. https://leetcode.com/problems/integer-to-english-words/
