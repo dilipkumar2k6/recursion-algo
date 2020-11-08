@@ -40,9 +40,14 @@ https://sites.math.northwestern.edu/~mlerma/courses/cs310-05s/notes/dm-gcomb
 5. Permutations II: https://leetcode.com/problems/permutations-ii/
 6. Combinations: https://leetcode.com/problems/combinations/
 6. https://leetcode.com/problems/combination-sum
+6. https://leetcode.com/problems/combination-sum-ii/
+6. https://leetcode.com/problems/combination-sum-iii/
+6. https://leetcode.com/problems/combination-sum-iv/
 6. https://leetcode.com/problems/letter-combinations-of-a-phone-number
 7. Back tracking: Generate Parentheses: https://leetcode.com/problems/generate-parentheses/
 8. Palindrome Partitioning: https://leetcode.com/problems/palindrome-partitioning/
+9. https://leetcode.com/problems/palindrome-permutation/
+9. https://leetcode.com/problems/palindrome-permutation-ii/
 9. N-Queens: https://leetcode.com/problems/n-queens/ 
 and https://leetcode.com/problems/n-queens-ii/
 9. https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
