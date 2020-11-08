@@ -19,4 +19,4 @@ const permutationsHelper = (arr, k, i) => {
 
 const permutations = (arr, k) => permutationsHelper(arr, k, 0);
 
-permutations(['a','b','c'], 2)
+permutations(['a','b','c'], 1)

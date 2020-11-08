@@ -1,3 +1,4 @@
+// Reference https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/
 const swap = (arr, i, j) => {
     const t = arr[i];
     arr[i] = arr[j];

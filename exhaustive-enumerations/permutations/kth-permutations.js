@@ -14,7 +14,8 @@ const kthPermutations = (arr, k, result) => {
     const pIndex = Math.floor(k / blockSize);
     const remaining = k - blockSize * pIndex;
     result.push(arr[pIndex]);
-    kthPermutations([...arr.slice(0, pIndex), ...arr.slice(pIndex + 1)], remaining, result);
+    arr.splice(pIndex, 1)
+    kthPermutations(arr, remaining, result);
 }
 const result = [];
 kthPermutations(['a','b','c'], 0, result);

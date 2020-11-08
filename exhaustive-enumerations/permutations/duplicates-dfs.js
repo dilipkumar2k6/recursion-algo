@@ -16,4 +16,4 @@ const permutationsHelper = (arr, slate) => {
 
 }
 const permutations =  arr => permutationsHelper(arr, '');
-permutations(['a','b','c'])
+permutations(['a','b','b'])

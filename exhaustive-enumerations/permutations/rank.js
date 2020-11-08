@@ -13,6 +13,7 @@ const rank = (arr, perm) => {
     const blockSize = fact(n - 1);
     const pIndex = arr.indexOf(perm[0]);
     perm.shift();
-    return pIndex * blockSize + rank([...arr.slice(0, pIndex), ...arr.slice(pIndex + 1)], perm);
+    arr.splice(pIndex,1)
+    return pIndex * blockSize + rank(arr, perm);
 }
-console.log(rank(['a','b','c'], ['a','b','c']))
+console.log(rank(['a','b','c'], ['c','b','a']))
