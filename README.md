@@ -38,6 +38,15 @@ https://sites.math.northwestern.edu/~mlerma/courses/cs310-05s/notes/dm-gcomb
 3. Subsets II: https://leetcode.com/problems/subsets-ii/
 4. Permutations: https://leetcode.com/problems/permutations/
 5. Permutations II: https://leetcode.com/problems/permutations-ii/
+
+5. https://www.lintcode.com/problem/permutation-sequence/description
+5. https://www.lintcode.com/problem/permutation-index/description
+5. https://www.lintcode.com/problem/permutation-index-ii/description
+5. https://leetcode.com/problems/next-permutation/
+5. https://www.lintcode.com/problem/next-permutation-ii/
+5. https://www.lintcode.com/problem/previous-permutation/
+5. https://leetcode.com/problems/permutation-sequence/
+
 6. Combinations: https://leetcode.com/problems/combinations/
 6. https://leetcode.com/problems/combination-sum
 6. https://leetcode.com/problems/combination-sum-ii/
