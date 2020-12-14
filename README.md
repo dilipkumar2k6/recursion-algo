@@ -34,42 +34,78 @@ https://sites.math.northwestern.edu/~mlerma/courses/cs310-05s/notes/dm-gcomb
 # Exhaustive Enumerations
 
 1. Letter case permutation: https://leetcode.com/problems/letter-case-permutation/
+
 2. Subsets: https://leetcode.com/problems/subsets/
+
 3. Subsets II: https://leetcode.com/problems/subsets-ii/
+
 4. Permutations: https://leetcode.com/problems/permutations/
+
 5. Permutations II: https://leetcode.com/problems/permutations-ii/
 
 5. https://www.lintcode.com/problem/permutation-sequence/description
+
 5. https://www.lintcode.com/problem/permutation-index/description
+
 5. https://www.lintcode.com/problem/permutation-index-ii/description
+
 5. https://leetcode.com/problems/next-permutation/
+
 5. https://www.lintcode.com/problem/next-permutation-ii/
+
 5. https://www.lintcode.com/problem/previous-permutation/
+
 5. https://leetcode.com/problems/permutation-sequence/
 
 6. Combinations: https://leetcode.com/problems/combinations/
+
 6. https://leetcode.com/problems/combination-sum
+
 6. https://leetcode.com/problems/combination-sum-ii/
+
 6. https://leetcode.com/problems/combination-sum-iii/
+
 6. https://leetcode.com/problems/combination-sum-iv/
+
 6. https://leetcode.com/problems/letter-combinations-of-a-phone-number
+
 7. Back tracking: Generate Parentheses: https://leetcode.com/problems/generate-parentheses/
+
 8. Palindrome Partitioning: https://leetcode.com/problems/palindrome-partitioning/
+
 9. https://leetcode.com/problems/palindrome-permutation/
+
 9. https://leetcode.com/problems/palindrome-permutation-ii/
+
 9. N-Queens: https://leetcode.com/problems/n-queens/ 
+
 and https://leetcode.com/problems/n-queens-ii/
+
 9. https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
+
 10. Fibonacci/selection https://leetcode.com/problems/climbing-stairs/
+
 11. Regex match https://leetcode.com/problems/regular-expression-matching/
+
 12. Edit distance https://leetcode.com/problems/edit-distance/
 13. https://leetcode.com/problems/word-search
+
 14. https://leetcode.com/contest/weekly-contest-169/problems/find-n-unique-integers-sum-up-to-zero/
+
 15. https://leetcode.com/problems/restore-ip-addresses
+
 16. https://www.lintcode.com/problem/factorial/description
+
 17. https://leetcode.com/problems/powx-n/
+
 18. https://leetcode.com/problems/target-sum/
+
 18. https://leetcode.com/problems/expression-add-operators/
+
 19. https://www.educative.io/courses/data-structures-coding-interviews-javascript/m2NMgL057Y9
+
 20. https://leetcode.com/problems/integer-to-english-words/
+
 21. https://leetcode.com/problems/integer-to-roman/
+
+22. https://leetcode.com/problems/design-tic-tac-toe/
